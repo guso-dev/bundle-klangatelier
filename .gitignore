@@ -1,0 +1,36 @@
+# Software
+.DS_Store
+.idea
+rector.php
+
+# Temporary files
+/.build/*
+/backup/*
+!/backup/.gitkeep
+/conception/*
+/dump/*
+/tmp/*
+
+# Cache files
+/.php-cs-fixer*.cache
+/.php_cs*.cache
+/.phpunit.result.cache
+
+# Composer
+/auth.json
+
+# DDEV
+/.ddev/backups/*
+env.yml
+
+# TYPO3
+!/app/
+/app/*
+!/app/web/
+/app/web/*
+!/app/web/typo3conf/
+/app/web/typo3conf/*
+!/app/web/typo3conf/LocalConfiguration.php
+!/app/web/typo3conf/AdditionalConfiguration.php
+/var/*
+/config/*
